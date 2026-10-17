@@ -1,0 +1,144 @@
+# 🎮 PC Gamer Endgame 2026 - Configuração Definitiva
+
+> "O PC mais forte do mundo para rodar qualquer jogo em 4K 240Hz+ com Ray Tracing no máximo"
+
+---
+
+## 🖥️ Especificações do PC
+
+| Componente | Modelo |
+|------------|--------|
+| **CPU** | AMD Ryzen 7 9800X3D |
+| **GPU** | NVIDIA GeForce RTX 5090 24GB GDDR7 |
+| **Placa-mãe** | ASUS ROG Crosshair X870E Extreme |
+| **RAM** | 64GB DDR5 6400MHz CL28 (G.Skill Trident Z5) |
+| **SSD Principal** | 4TB NVMe PCIe Gen5 (Crucial T705) |
+| **SSD Jogos** | 8TB NVMe PCIe Gen4 (WD Black SN850X) |
+| **Fonte** | 1600W 80 Plus Titanium (Corsair AX1600i) |
+| **Refrigeração** | Custom Loop com radiador MO-RA3 420mm |
+| **Gabinete** | Lian Li O11 Dynamic EVO XL |
+| **Monitor** | Samsung Odyssey Neo G9 57" 4K 240Hz |
+
+---
+
+## 📦 Código da Configuração (JSON)
+
+```json
+{
+  "nome": "PC Gamer Endgame 2026",
+  "objetivo": "4K 240Hz com Ray Tracing",
+  "orcamento": "Ilimitado",
+  "componentes": {
+    "processador": "AMD Ryzen 7 9800X3D",
+    "placa_video": "NVIDIA GeForce RTX 5090 24GB",
+    "placa_mae": "ASUS ROG Crosshair X870E Extreme",
+    "memoria_ram": "64GB DDR5 6400MHz CL28",
+    "armazenamento": {
+      "sistema": "4TB NVMe PCIe Gen5",
+      "jogos": "8TB NVMe PCIe Gen4"
+    },
+    "fonte": "1600W 80 Plus Titanium",
+    "refrigeracao": "Custom Loop 420mm",
+    "gabinete": "Lian Li O11 Dynamic EVO XL"
+  },
+  "perifericos": {
+    "monitor": "Samsung Odyssey Neo G9 57\"",
+    "teclado": "Mecânico RGB",
+    "mouse": "Wireless 8000Hz"
+  }
+}
+```
+
+---
+
+## ⚡ Script de Instalação Automática
+
+Este script instala todos os programas essenciais no seu PC novo.
+
+```powershell
+# ============================================
+# SCRIPT DE INSTALAÇÃO - PC GAMER ENDGAME
+# ============================================
+
+Write-Host "🚀 Iniciando instalação do PC Gamer..." -ForegroundColor Green
+Write-Host ""
+
+# 1. Navegadores
+Write-Host "📌 Instalando navegadores..." -ForegroundColor Yellow
+winget install Mozilla.Firefox
+winget install Google.Chrome
+
+# 2. Plataformas de Jogos
+Write-Host "🎮 Instalando plataformas de jogos..." -ForegroundColor Yellow
+winget install Valve.Steam
+winget install EpicGames.EpicGamesLauncher
+winget install RiotGames.LeagueOfLegends
+winget install BattleNet
+
+# 3. Comunicação
+Write-Host "💬 Instalando apps de comunicação..." -ForegroundColor Yellow
+winget install Discord.Discord
+winget install Telegram.TelegramDesktop
+winget install WhatsApp
+
+# 4. Ferramentas de Monitoramento
+Write-Host "📊 Instalando ferramentas de monitoramento..." -ForegroundColor Yellow
+winget install TechPowerUp.GPU-Z
+winget install CPUID.CPU-Z
+winget install MSI.Afterburner
+winget install HWiNFO.HWiNFO
+
+# 5. Drivers e Utilitários
+Write-Host "⚙️ Instalando drivers e utilitários..." -ForegroundColor Yellow
+winget install Nvidia.GeForceExperience
+winget install 7zip.7zip
+winget install VideoLAN.VLC
+
+Write-Host ""
+Write-Host "✅ Instalação concluída com sucesso!" -ForegroundColor Cyan
+Write-Host "🔄 Reinicie o PC para finalizar." -ForegroundColor Cyan
+```
+
+---
+
+## 🚀 Otimizações para Máximo FPS
+
+### BIOS
+- Ativar **EXPO/DOCP** para a RAM rodar em 6400MHz
+- Ativar **Re-Size BAR** (Smart Access Memory)
+- Desativar serviços desnecessários (áudio onboard se usar USB, etc)
+
+### Windows
+- Plano de energia: **Alto Desempenho**
+- Ativar **Modo de Jogo** nas configurações
+- Desativar **HAGS** se causar instabilidade
+- Drivers NVIDIA: Ativar **Modo de Baixa Latência** e **DLSS**
+
+### NVIDIA Control Panel
+- Modo de gerenciamento de energia: **Desempenho máximo**
+- Filtro de textura: **Alto desempenho**
+- Modo de baixa latência: **Ultra**
+
+---
+
+## 📌 Como usar este repositório
+
+1. Copie o script PowerShell acima
+2. Salve como `setup.ps1` no seu PC
+3. Abra o PowerShell como Administrador
+4. Execute: `.\setup.ps1`
+5. Pronto! Todos os programas serão instalados automaticamente
+
+---
+
+## 🎯 Objetivo
+
+Rodar qualquer jogo atual e de próxima geração com:
+- ✅ Resolução 4K nativa
+- ✅ 240+ FPS
+- ✅ Ray Tracing / Path Tracing no máximo
+- ✅ DLSS 4 / Frame Generation ativado
+
+---
+
+**Criado com 💜 para entusiastas de hardware**
